@@ -1,0 +1,51 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-image: linear-gradient(#e383b9, #5f65e9);
+  color: white;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+i {
+  font-size: 24px;
+}
+
+input {
+  padding: 6px;
+  background: none;
+  border: none;
+  color: white;
+  border-bottom: 1px solid white;
+  margin-top: 0;
+  margin-right: 8px;
+}
+
+.title-input {
+  font-size: 2rem;
+}
+
+input:focus {
+  outline: none;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3rem;
+  padding: 8%;
+}
+
+button {
+  padding: 6px 8px;
+  font-size: 16px;
+  background: none;
+  color: white;
+  border: 1px solid white;
+  border-radius: 4px;
+}
