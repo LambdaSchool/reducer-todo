@@ -1,0 +1,30 @@
+.App {
+  text-align: center;
+}
+
+.completed{
+  text-decoration: line-through;
+  background-color: skyblue;
+  color: green;
+
+}
+
+.form{
+  margin: 10%;
+}
+
+.todoArea{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.todo{
+  width: 10vw;
+  height: 5vw;
+  margin: 2%;
+  background:skyblue;
+  border-radius: 30px;
+  color: red;
+  font-size: 1vw;
+}
